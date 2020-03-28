@@ -17,9 +17,9 @@ const sass = require('gulp-sass');
 
 // Compile sass into CSS & auto-inject into browsers
 function serveSass() {
-    return src("./sass/*.scss")
+    return src("./sass/*.sass")
         .pipe(sass())
-        .pipe(dest("app/css"))
+        .pipe(dest("./css"))
         .pipe(browserSync.stream());
 };
 
