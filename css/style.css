@@ -349,7 +349,7 @@ template {
   flex-direction: column;
   justify-content: center;
   background: #fff url("../img/hero/hero.jpg") no-repeat center/cover;
-  height: 89vh;
+  height: 88.5vh;
   color: #fff; }
   .hero__button {
     margin-right: 22px; }
@@ -361,6 +361,12 @@ template {
     font-size: 22px;
     max-width: 500px; }
 
+.section-title__heading {
+  padding-bottom: 50px; }
+
+.products {
+  display: inline-block; }
+
 img {
   max-width: 100%;
   height: auto; }
@@ -368,3 +374,7 @@ img {
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px; }
+
+.section-title {
+  text-align: center;
+  margin-top: 50px; }
