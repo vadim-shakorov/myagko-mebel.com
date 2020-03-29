@@ -311,9 +311,14 @@ template {
   .button--primary {
     background-color: #E38373;
     color: #fff; }
+  .button--outline {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff; }
 
 .container {
   max-width: 1256px;
+  width: 85%;
   margin: auto; }
 
 .header {
@@ -329,19 +334,37 @@ template {
   text-decoration: none;
   color: #000;
   text-transform: uppercase;
-  margin-right: 40px; }
+  margin-right: 30px; }
 
 .instagram {
   color: #E38373;
   text-decoration: none; }
 
 .contacts__instagram {
-  margin-right: 80px; }
+  margin-right: 20px; }
+
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff url("../img/hero/hero.jpg") no-repeat center/cover;
+  height: 89vh;
+  color: #fff; }
+  .hero__button {
+    margin-right: 22px; }
+  .hero__title {
+    font-size: 30px; }
+  .hero__content {
+    max-width: 670px; }
+  .hero__text {
+    font-size: 22px;
+    max-width: 500px; }
 
 img {
   max-width: 100%;
   height: auto; }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px; }
