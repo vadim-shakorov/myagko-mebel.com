@@ -307,13 +307,18 @@ template {
   padding: 13px 20px;
   border: none;
   border-radius: 2px;
-  font-weight: 600; }
+  font-weight: 700; }
   .button--green {
     background-color: #a7ca4a;
+    color: #fff; }
+  .button--outline {
+    border: 1px solid #fff;
+    background-color: transparent;
     color: #fff; }
 
 .container {
   max-width: 1256px;
+  width: 85%;
   margin: auto; }
 
 .header {
@@ -327,17 +332,41 @@ template {
 
 .nav__item {
   text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
-  margin-right: 40px; }
+  color: #131313;
+  margin-right: 40px;
+  font-weight: 700; }
 
 .phone {
-  color: #fff;
-  text-decoration: none; }
+  color: #131313;
+  text-decoration: none;
+  font-weight: 700; }
 
 .contacts__phone {
   margin-right: 45px; }
 
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("../img/hero/hero.jpg") no-repeat center/cover;
+  height: 100vh; }
+  .hero__content {
+    max-width: 670px; }
+  .hero__text {
+    font-size: 22px;
+    max-width: 500px; }
+  .hero__button {
+    margin-right: 20px; }
+
+.title {
+  margin: 0;
+  font-size: 40px; }
+
+*, *:before, *after {
+  box-sizing: border-box; }
+
 body {
   font-family: 'Comfortaa', cursive;
-  font-size: 14px; }
+  font-size: 14px;
+  font-weight: 500; }
