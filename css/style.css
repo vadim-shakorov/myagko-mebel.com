@@ -307,22 +307,17 @@ template {
   padding: 13px 20px;
   border: none;
   border-radius: 2px;
-  text-transform: uppercase; }
-  .button--primary {
-    background-color: #E38373;
-    color: #fff; }
-  .button--outline {
-    border: 1px solid #fff;
-    background-color: transparent;
+  font-weight: 600; }
+  .button--green {
+    background-color: #a7ca4a;
     color: #fff; }
 
 .container {
   max-width: 1256px;
-  width: 85%;
   margin: auto; }
 
 .header {
-  background-color: #fff;
+  background-color: #fcfeff;
   padding: 24px 0; }
 
 .menu {
@@ -332,49 +327,17 @@ template {
 
 .nav__item {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
-  margin-right: 30px; }
+  margin-right: 40px; }
 
-.instagram {
-  color: #E38373;
+.phone {
+  color: #fff;
   text-decoration: none; }
 
-.contacts__instagram {
-  margin-right: 20px; }
-
-.hero {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: #fff url("../img/hero/hero.jpg") no-repeat center/cover;
-  height: 88.5vh;
-  color: #fff; }
-  .hero__button {
-    margin-right: 22px; }
-  .hero__title {
-    font-size: 30px; }
-  .hero__content {
-    max-width: 670px; }
-  .hero__text {
-    font-size: 22px;
-    max-width: 500px; }
-
-.section-title__heading {
-  padding-bottom: 50px; }
-
-.products {
-  display: inline-block; }
-
-img {
-  max-width: 100%;
-  height: auto; }
+.contacts__phone {
+  margin-right: 45px; }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Comfortaa', cursive;
   font-size: 14px; }
-
-.section-title {
-  text-align: center;
-  margin-top: 50px; }
